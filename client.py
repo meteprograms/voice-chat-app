@@ -2,6 +2,10 @@ import socket
 import threading
 import pyaudio
 import pyogg
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
