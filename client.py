@@ -1,6 +1,7 @@
 import socket
 import threading
 import pyaudio
+import pyogg
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
